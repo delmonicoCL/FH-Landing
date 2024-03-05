@@ -1,0 +1,92 @@
+
+body{
+
+font-family: 'Luckiest Guy', sans-serif;
+
+}
+
+
+
+.nav-link 
+{
+
+    font-size: 30px;
+
+}
+
+.section {
+    width: -webkit-fill-available;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-size: contain;
+        /* Para que la imagen de fondo se ajuste completamente dentro de la sección */
+        background-position: center;
+        /* Para centrar la imagen de fondo */
+        background-repeat: no-repeat;
+        /* Para que la imagen de fondo no se repita */
+}
+
+
+.barra1{
+
+    width: -webkit-fill-available;
+        
+}
+
+.barra {
+
+height: 120px;
+    width: 81%;
+    
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+        right: 0;
+        margin: 0 auto;
+    background-image: url('/assets/img/navbar.png'); 
+    /* width: -webkit-fill-available; */
+    background-size: contain;
+        /* Para que la imagen de fondo se ajuste completamente dentro de la sección */
+        background-position: center;
+        /* Para centrar la imagen de fondo */
+        background-repeat: no-repeat;
+        
+   
+}
+
+
+#home {
+    background-image: url('/assets/img/home-01.png');
+   
+        
+      
+}
+
+#nosotros {
+    background-image: url('/assets/img/nosotros-02.png');
+    /* Ruta de la imagen de fondo para la sección Nosotros */
+}
+#raider {
+    background-image: url('/assets/img/raider-03.png');
+    /* Ruta de la imagen de fondo para la sección Raider */
+}
+
+#proveedor {
+    background-image: url('/assets/img/proveedor-04.png');
+    /* Ruta de la imagen de fondo para la sección Proveedor */
+}
+
+#contacto {
+    background-image: url('/assets/img/contacto-05.png');
+    /* Ruta de la imagen de fondo para la sección Contacto */
+}
+
+#footer {
+    background-image: url('/assets/img/footer-06.png');
+    /* Ruta de la imagen de fondo para la sección Contacto */
+}
