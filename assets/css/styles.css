@@ -1,92 +1,87 @@
-
-body{
-
-font-family: 'Luckiest Guy', sans-serif;
-
+body {
+  font-family: "Luckiest Guy", sans-serif;
 }
 
-
-
-.nav-link 
-{
-
-    font-size: 30px;
-
+.nav-link {
+  font-size: 30px;
+  color: azure;
 }
 
 .section {
-    width: -webkit-fill-available;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background-size: contain;
-        /* Para que la imagen de fondo se ajuste completamente dentro de la sección */
-        background-position: center;
-        /* Para centrar la imagen de fondo */
-        background-repeat: no-repeat;
-        /* Para que la imagen de fondo no se repita */
+  width: -webkit-fill-available;
+  /* width: 1440px;
+  height: 1024px; */
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-size: contain;
+  /* background-attachment: fixed; */
+  background-position: center center;
+  /* Para centrar la imagen de fondo */
+  background-repeat: no-repeat;
 }
 
+.barra1 {
+  width: -webkit-fill-available;
+}
 
-.barra1{
-
-    width: -webkit-fill-available;
-        
+.logo-barra {
+  width: 75px;
 }
 
 .barra {
-
-height: 120px;
-    width: 81%;
-    
-    color: white;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-        right: 0;
-        margin: 0 auto;
-    background-image: url('/assets/img/navbar.png'); 
-    /* width: -webkit-fill-available; */
-    background-size: contain;
-        /* Para que la imagen de fondo se ajuste completamente dentro de la sección */
-        background-position: center;
-        /* Para centrar la imagen de fondo */
-        background-repeat: no-repeat;
-        
-   
+  height: 120px;
+  width: 65%;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-image: url("/assets/img/navbar.png");
+  /* width: -webkit-fill-available; */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-
 #home {
-    background-image: url('/assets/img/home-01.png');
-   
-        
-      
+  background-image: url("/assets/img/home-01.png");
 }
 
 #nosotros {
-    background-image: url('/assets/img/nosotros-02.png');
-    /* Ruta de la imagen de fondo para la sección Nosotros */
+  background-image: url("/assets/img/nosotros-02.png");
 }
 #raider {
-    background-image: url('/assets/img/raider-03.png');
-    /* Ruta de la imagen de fondo para la sección Raider */
+  background-image: url("/assets/img/raider-03.png");
 }
 
 #proveedor {
-    background-image: url('/assets/img/proveedor-04.png');
-    /* Ruta de la imagen de fondo para la sección Proveedor */
+  background-image: url("/assets/img/proveedor-04.png");
 }
 
 #contacto {
-    background-image: url('/assets/img/contacto-05.png');
-    /* Ruta de la imagen de fondo para la sección Contacto */
+  background-image: url("/assets/img/contacto-05.png");
 }
 
-#footer {
-    background-image: url('/assets/img/footer-06.png');
-    /* Ruta de la imagen de fondo para la sección Contacto */
+#final {
+  background-image: url("/assets/img/footer-06.png");
+}
+
+.headerUno {
+  background-color: #333;
+  /* padding: 20px; */
+}
+
+.bodyDos {
+  background-color: #f9f9f9;
+  /* padding: 20px; */
+}
+
+.footerTres {
+  background-color: #555;
+  /* padding: 20px; */
 }
