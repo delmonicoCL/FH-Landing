@@ -49,18 +49,18 @@ body {
 }
 
 #home {
-  background-image: url('https: //github.com/delmonicoCL/FH-Landing/blob/main/assets/img/home-01.png');
+  background-image: url('https://raw.githubusercontent.com/delmonicoCL/FH-Landing/main/assets/img/raider-03.png');
 }
 
 #nosotros {
   background-image: url("/assets/img/nosotros-02.png");
 }
 #raider {
-  background-image: url("https: //github.com/delmonicoCL/FH-Landing/blob/main/assets/img/raider-03.png?");
+  background-image: url("https: //github.com/delmonicoCL/FH-Landing/blob/main/assets/img/raider-03.png");
 }
 
 #proveedor {
-  background-image: url("/assets/img/proveedor-04.png");
+  background-image: url("https://raw.githubusercontent.com/delmonicoCL/FH-Landing/main/assets/img/raider-03.png");
 }
 
 #contacto {
