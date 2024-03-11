@@ -49,26 +49,27 @@ body {
 }
 
 #home {
-  background-image: url('https://raw.githubusercontent.com/delmonicoCL/FH-Landing/main/assets/img/raider-03.png');
+  background-image: url('https://raw.githubusercontent.com/delmonicoCL/FH-Landing/main/assets/img/home-01.png');
 }
 
 #nosotros {
-  background-image: url("/assets/img/nosotros-02.png");
+  background-image: url('https://raw.githubusercontent.com/delmonicoCL/FH-Landing/main/assets/img/nosotros-02.png');
 }
 #raider {
-  background-image: url("https: //github.com/delmonicoCL/FH-Landing/blob/main/assets/img/raider-03.png");
+  background-image: url('https://raw.githubusercontent.com/delmonicoCL/FH-Landing/main/assets/img/raider-03.png');
+ 
 }
 
 #proveedor {
-  background-image: url("https://raw.githubusercontent.com/delmonicoCL/FH-Landing/main/assets/img/raider-03.png");
+  background-image: url('https://raw.githubusercontent.com/delmonicoCL/FH-Landing/main/assets/img/proveedor-04.png');
 }
 
 #contacto {
-  background-image: url("/assets/img/contacto-05.png");
+  background-image: url('https://raw.githubusercontent.com/delmonicoCL/FH-Landing/main/assets/img/contacto-05.png');
 }
 
 #final {
-  background-image: url("/assets/img/footer-06.png");
+  background-image: url('https://raw.githubusercontent.com/delmonicoCL/FH-Landing/main/assets/img/footer-06.png');
 }
 
 .headerUno {
