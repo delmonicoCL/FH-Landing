@@ -49,14 +49,14 @@ body {
 }
 
 #home {
-  background-image: url("/assets/img/home-01.png");
+  background-image: url('https: //github.com/delmonicoCL/FH-Landing/blob/main/assets/img/home-01.png?raw=true');
 }
 
 #nosotros {
   background-image: url("/assets/img/nosotros-02.png");
 }
 #raider {
-  background-image: url("/assets/img/raider-03.png");
+  background-image: url('https: //github.com/delmonicoCL/FH-Landing/blob/main/assets/img/raider-03.png?raw=true');
 }
 
 #proveedor {
