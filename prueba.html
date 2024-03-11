@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Estilos para el contenedor */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 2fr); /* 3 columnas de igual tamaño */
+            gap: 10px; /* Espacio entre las celdas */
+            background-image: url(/assets/img/proveedor-04.png);
+            background-size: contain;
+            /* background-attachment: fixed; */
+            background-position: center center;
+            /* Para centrar la imagen de fondo */
+            background-repeat: no-repeat;
+        }
+
+        /* Estilos para los elementos */
+        .grid-itemcenter {
+            display: flex; /* Utiliza flexbox para centrar el contenido */
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 50px;
+           
+        }
+
+        .grid-itemstar {
+            display: flex; /* Utiliza flexbox para centrar el contenido */
+            justify-content: center; /* Centra horizontalmente */
+            align-items: start; /* Centra verticalmente */
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 50px;
+           
+        }
+
+        .grid-itemend {
+            display: flex; /* Utiliza flexbox para centrar el contenido */
+            justify-content: center; /* Centra horizontalmente */
+            align-items: end; /* Centra verticalmente */
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 50px;
+           
+        }
+        grid-item {
+            display: flex; /* Utiliza flexbox para centrar el contenido */
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 50px;
+           
+        }
+
+        /* Colores personalizados para cada elemento */
+        /* .grid-item:nth-child(1) { background-color: #ffcccb; } Rojo claro */
+        /* .grid-item:nth-child(2) { background-color: #98fb98; } Verde claro */
+        /* .grid-item:nth-child(3) { background-color: #add8e6; } Azul claro */
+        /* Puedes agregar más colores para los demás elementos */
+
+        /* Ajusta el tamaño del contenedor según tus necesidades */
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .grid-container {
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-itemstar"></div>
+        <div class="grid-itemstar">1</div>
+        <div class="grid-itemstar"></div>
+        <div class="grid-itemcenter"></div>
+        <div class="grid-itemcenter">2</div>
+        <div class="grid-itemcenter"></div>
+        <div class="grid-itemend"></div>
+        <div class="grid-itemend">3</div>
+        <div class="grid-itemend"></div>
+        
+        <!-- Agrega más elementos aquí si lo deseas -->
+    </div>
+   
+    
+</body>
+</html>
