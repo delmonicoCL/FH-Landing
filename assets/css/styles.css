@@ -41,7 +41,7 @@ body {
   left: 0;
   right: 0;
   margin: 0 auto;
-  background-image: url("assets/img/navbar.png");
+  background-image: url("/assets/img/navbar.png");
   /* width: -webkit-fill-available; */
   background-size: contain;
   background-position: center;
@@ -49,26 +49,26 @@ body {
 }
 
 #home {
-  background-image: url("assets/img/home-01.png");
+  background-image: url("/assets/img/home-01.png");
 }
 
 #nosotros {
-  background-image: url("assets/img/nosotros-02.png");
+  background-image: url("/assets/img/nosotros-02.png");
 }
 #raider {
-  background-image: url("assets/img/raider-03.png");
+  background-image: url("/assets/img/raider-03.png");
 }
 
 #proveedor {
-  background-image: url("assets/img/proveedor-04.png");
+  background-image: url("/assets/img/proveedor-04.png");
 }
 
 #contacto {
-  background-image: url("assets/img/contacto-05.png");
+  background-image: url("/assets/img/contacto-05.png");
 }
 
 #final {
-  background-image: url("assets/img/footer-06.png");
+  background-image: url("/assets/img/footer-06.png");
 }
 
 .headerUno {
