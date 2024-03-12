@@ -1,5 +1,7 @@
 body {
   font-family: "Luckiest Guy", sans-serif;
+  background: #333;
+  
 }
 
 .nav-link {
@@ -12,36 +14,16 @@ body {
   /* width: 1440px;
   height: 1024px; */
   height: 100vh; 
-  /* display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center; */
-  color: white;
+  justify-content: center;
+  color:#333;
   background-size: contain;
   /* background-attachment: fixed; */
   background-position: center center;
   /* Para centrar la imagen de fondo */
   background-repeat: no-repeat;
-  font-size: 30px;
 }
-
-.container {
-  display: flex;
-  justify-content: center; /* Centra horizontalmente los elementos */
-  align-items: center; /* Centra verticalmente los elementos */
-  /* Opcional: Ajusta el tamaño del contenedor según tus necesidades */
-  width: 100%;
-  height: 100vh; /* Esto asegura que el contenedor ocupe toda la altura de la ventana */
- 
-  color: black;
-}
-
-.footer{
-
-position: relative;
-
-}
-
-
 
 .barra1 {
   width: -webkit-fill-available;
@@ -88,7 +70,7 @@ position: relative;
   background-image: url('https://raw.githubusercontent.com/delmonicoCL/FH-Landing/main/assets/img/contacto-05.png');
 }
 
-#footer {
+#final {
   background-image: url('https://raw.githubusercontent.com/delmonicoCL/FH-Landing/main/assets/img/footer-06.png');
 }
 
@@ -106,3 +88,60 @@ position: relative;
   background-color: #555;
   /* padding: 20px; */
 }
+
+.content-box {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Color de fondo semi-transparente */
+  padding: 15px;
+  margin-top: 15px;
+  min-height: 100px;
+  /* Altura mínima del contenido */
+  width: 100%;
+  /* Ocupa el ancho completo de la columna */
+}
+
+.info{
+height: 450px;
+width: 700px;
+display: flex;
+align-items: center;
+
+}
+
+.seccion-principal {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  /* Color de fondo de la sección */
+    background-size: contain;
+      /* background-attachment: fixed; */
+      background-position: center center;
+      /* Para centrar la imagen de fondo */
+      background-repeat: no-repeat;
+}
+
+.caja-contenido {
+  text-align: center;
+  background-color: #3498db;
+  /* Color de fondo de la caja de contenido */
+  padding: 50px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 250px;
+  margin-left: 100px;
+  /* Color del texto dentro de la caja de contenido */
+}
+
+     @media (max-width: 768px) {
+       .caja-contenido {
+         width: 80%;
+        padding: 20px;
+          background-color:#555;
+         /* Ancho reducido para pantallas pequeñas */
+         font-size: 14px;
+         /* Tamaño de fuente reducido para pantallas pequeñas */
+         margin-top: 150px;
+       }
+     }
