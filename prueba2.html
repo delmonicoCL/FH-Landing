@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Sections</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    .container-fluid {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Centra horizontalmente el contenido */
+      align-items: center; /* Centra verticalmente el contenido */
+      background-color: #f0f0f0;
+    }
+
+    .contenedor-seccion {
+      width: 80%; /* Ancho del contenido */
+      max-width: 1024px; /* Ancho máximo del contenido */
+      margin: 0 auto; /* Centrar el contenido horizontalmente */
+      
+      box-sizing: border-box; /* Incluye el padding en el ancho */
+      background-color: #fff; /* Color de fondo */
+      border-radius: 8px; /* Bordes redondeados */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    }
+
+    .contenedor-imagen {
+      width: 100%;
+      max-width: 100%; /* Ancho máximo del contenedor de la imagen */
+    }
+
+    .contenedor-imagen img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Estilos adicionales según sea necesario para dispositivos más pequeños */
+    @media screen and (max-width: 768px) {
+      .contenedor-seccion {
+        width: 90%; /* Cambia el ancho en dispositivos pequeños */
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <section class="contenedor-seccion">
+    <div class="contenedor-imagen">
+      <img src="/assets/img/proveedor-04.png" alt="Descripción de la imagen">
+    </div>
+  </section>
+    
+  <section class="contenedor-seccion">
+    <div class="contenedor-imagen">
+      <img src="/assets/img/raider-03.png" alt="Descripción de la imagen">
+    </div>
+  </section>
+</div>
+
+</body>
+</html>
