@@ -111,11 +111,14 @@ align-items: center;
 .seccion-principal {
   height: 100vh;
   display: flex;
+  width: 70%; /* Ancho del contenido */
+  max-width: 1920px; /* Ancho máximo del contenido */
+  margin: 0 auto; /* Centrar el contenido horizontalmente */
   justify-content: center;
   align-items: center;
   background-color: #f0f0f0;
   /* Color de fondo de la sección */
-    background-size: contain;
+    background-size: cover;
       /* background-attachment: fixed; */
       background-position: center center;
       /* Para centrar la imagen de fondo */
