@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección con Fondo de Imagen y Botón Centralizado</title>
+    <!-- Enlace al archivo CSS de Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados */
+        .contenedor-seccion {
+            position: relative;
+            overflow: hidden;
+            /* Establecer la altura mínima para la sección */
+            min-height: 400px;
+            /* Ajusta según sea necesario */
+            background: url('/assets/img/comunicate.png') center/cover no-repeat;
+            /* Fondo de la sección */
+        }
+
+        .contenedor-imagen {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .contenedor-imagen img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section id="comunicate" class="contenedor-seccion">
+        <div class="contenedor-imagen">
+            <!-- Aquí irá el botón de abrir modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalContacto">
+                Abrir Modal de Contacto
+            </button>
+        </div>
+    </section>
+
+    <!-- Scripts de Bootstrap (jQuery y Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

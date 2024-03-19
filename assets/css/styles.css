@@ -1,6 +1,6 @@
 body {
   font-family: "Luckiest Guy", sans-serif;
-  background: #333;
+  background: #833e3e;
   
 }
 
@@ -111,7 +111,7 @@ align-items: center;
 .seccion-principal {
   height: 100vh;
   display: flex;
-  width: 70%; /* Ancho del contenido */
+  width: 75%; /* Ancho del contenido */
   max-width: 1920px; /* Ancho máximo del contenido */
   margin: 0 auto; /* Centrar el contenido horizontalmente */
   justify-content: center;
@@ -129,11 +129,12 @@ align-items: center;
   text-align: center;
   background-color: #3498db;
   /* Color de fondo de la caja de contenido */
-  padding: 50px;
+  padding: 10px;
   border-radius: 10px;
   color: white;
-  margin-bottom: 250px;
-  margin-left: 100px;
+  font-size: 25px;
+  /* margin-bottom: 250px;
+  margin-left: 100px; */
   /* Color del texto dentro de la caja de contenido */
 }
 

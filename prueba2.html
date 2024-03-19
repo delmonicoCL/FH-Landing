@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Sections</title>
+  <title>Food Hero - Salva Comida Alimenta Corazones</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+  <link href="https://fonts.cdnfonts.com/css/luckiest-guy" rel="stylesheet">
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body, html {
+    body,
+    html {
       margin: 0;
       padding: 0;
       height: 100%;
@@ -19,25 +20,25 @@
       width: 100%;
       display: flex;
       flex-wrap: wrap;
-      justify-content: center; /* Centra horizontalmente el contenido */
-      align-items: center; /* Centra verticalmente el contenido */
+      justify-content: center;
+      align-items: center;
       background-color: #f0f0f0;
     }
 
     .contenedor-seccion {
-      width: 80%; /* Ancho del contenido */
-      max-width: 1024px; /* Ancho máximo del contenido */
-      margin: 0 auto; /* Centrar el contenido horizontalmente */
+      width: 80%;
+      max-width: 1920px;
+      margin: 0 auto;
+      box-sizing: border-box;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       
-      box-sizing: border-box; /* Incluye el padding en el ancho */
-      background-color: #fff; /* Color de fondo */
-      border-radius: 8px; /* Bordes redondeados */
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     }
 
     .contenedor-imagen {
       width: 100%;
-      max-width: 100%; /* Ancho máximo del contenedor de la imagen */
+      max-width: 100%;
     }
 
     .contenedor-imagen img {
@@ -46,29 +47,95 @@
       display: block;
     }
 
+    .navbar {
+      background-color: #f1ec4a;
+      color: #fff;
+      width: 80%;
+      height: 100px;
+      /* Ancho del navbar */
+      margin: 0 auto;
+      /* Centrar el navbar */
+      padding: 10;
+      /* Eliminar padding */
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .navbar ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    .navbar ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+    }
+
     /* Estilos adicionales según sea necesario para dispositivos más pequeños */
     @media screen and (max-width: 768px) {
       .contenedor-seccion {
-        width: 90%; /* Cambia el ancho en dispositivos pequeños */
+        width: 90%;
       }
     }
   </style>
 </head>
+
 <body>
 
-<div class="container-fluid">
-  <section class="contenedor-seccion">
-    <div class="contenedor-imagen">
-      <img src="/assets/img/proveedor-04.png" alt="Descripción de la imagen">
-    </div>
-  </section>
-    
-  <section class="contenedor-seccion">
-    <div class="contenedor-imagen">
-      <img src="/assets/img/raider-03.png" alt="Descripción de la imagen">
-    </div>
-  </section>
-</div>
+  <div class="container-fluid">
 
+    <nav class="navbar fixed-top">
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#nosotros">NOSOTROS</a></li>
+        <li><a href="#raider">RAIDER</a></li>
+        <li><a href="#proveedor">PROVEEDOR</a></li>
+        <li><a href="#footer">UNETE</a></li>
+      </ul>
+    </nav>
+
+    <section id="home" class="contenedor-seccion">
+      <div class="contenedor-imagen">
+        <img src="/assets/img/home.png" alt="Descripción de la imagen">
+      </div>
+    </section>
+
+    <section id="nosotros" class="contenedor-seccion">
+      <div class="contenedor-imagen">
+        <img src="/assets/img/nosotros.png" alt="Descripción de la imagen">
+      </div>
+    </section>
+
+    <section id="raider" class="contenedor-seccion">
+      <div class="contenedor-imagen">
+        <img src="/assets/img/raider.png" alt="Descripción de la imagen">
+      </div>
+    </section>
+
+    <section id="proveedor" class="contenedor-seccion">
+      <div class="contenedor-imagen">
+        <img src="/assets/img/proveedor.png" alt="Descripción de la imagen">
+      </div>
+    </section>
+
+    <section id="footer" class="contenedor-seccion">
+      <div class="contenedor-imagen">
+        <img src="/assets/img/footer.png" alt="Descripción de la imagen">
+      </div>
+    </section>
+  </div>
+
+  <!-- Scripts de Bootstrap (jQuery y Popper.js) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="/assets/js/script.js"></script>
 </body>
+
 </html>
